@@ -93,6 +93,7 @@ import Data.Encoding.CP865
 import Data.Encoding.CP866
 import Data.Encoding.CP869
 import Data.Encoding.CP874
+import Data.Encoding.CP932
 import Data.Char
 import Text.Regex
 
@@ -348,6 +349,7 @@ encodingFromStringExplicit codeName = case (normalizeEncoding codeName) of
     "cp866"              -> Just $ DynEncoding CP866
     "cp869"              -> Just $ DynEncoding CP869
     "cp874"              -> Just $ DynEncoding CP874
+    "cp932"              -> Just $ DynEncoding CP932
     -- defaults to nothing
     _                    -> Nothing
   where
