@@ -112,6 +112,7 @@ Library
     Data.Encoding.CP866
     Data.Encoding.CP869
     Data.Encoding.CP874
+    Data.Encoding.CP932
     System.IO.Encoding
   Other-Modules:
     Data.Encoding.Base
